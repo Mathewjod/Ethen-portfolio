@@ -18,7 +18,7 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
+    list-style: none
     
     
 }
@@ -29,7 +29,17 @@ nav ul li a {
     color: white;
     font-size: 16px;
     margin:5px;
+    transition: .5s;
+    display: inline-block;
+    
+    
 }
+nav ul li a:hover {
+    color: #4d6cab;
+    transform: scale(1.1);
+    
+      
+  }
 .top{
     background-color:#1f2020;
     height: 50px;
@@ -53,6 +63,7 @@ nav ul li a {
     
     
 }
+
 .image{
     height:100vw;
     width: 18%;
